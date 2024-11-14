@@ -1,1 +1,24 @@
-<!-- BUILD IT FROM HERE https://getbootstrap.com/docs/5.3/content/tables/#striped-rows -->
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Modulos</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (cotizacion of cotizaciones; track cotizacion) {
+                <tr>
+                    <th scope="row">{{cotizacion.id}}</th>
+                    <td>{{cotizacion.client}}</td>
+                    <td>{{cotizacion.date }}</td>
+                    <td>{{this.actualizarCantidadModulos(cotizacion.id)}}</td>
+                    <td><button class="btn btn-secondary" (click)="verMas(cotizacion.id)">ver más</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,5 +1,119 @@
 {
-  "budgets": [],
+  "budgets": [
+    {
+      "id": "hm3hek8qg",
+      "client": "sadadsad",
+      "date": "2024-11-14",
+      "modulos": [
+        {
+          "tipo": "USB",
+          "ambiente": "Living",
+          "price": 5000,
+          "slots": 1
+        }
+      ]
+    },
+    {
+      "id": "dm3het1yb",
+      "client": "fede",
+      "date": "1997-09-03",
+      "modulos": [
+        {
+          "tipo": "Interruptor simple",
+          "ambiente": "Living",
+          "price": 1000,
+          "slots": 1
+        },
+        {
+          "tipo": "Interruptor doble",
+          "ambiente": "Comedor",
+          "price": 2000,
+          "slots": 2
+        },
+        {
+          "tipo": "Toma corriente triple",
+          "ambiente": "Cocina",
+          "price": 1700,
+          "slots": 3
+        },
+        {
+          "tipo": "USB",
+          "ambiente": "Cocina",
+          "price": 5000,
+          "slots": 1
+        },
+        {
+          "tipo": "Toma corriente triple",
+          "ambiente": "Cocina",
+          "price": 1700,
+          "slots": 3
+        }
+      ]
+    },
+    {
+      "id": "bm3hf9sgb",
+      "client": "wachin",
+      "date": "1999-09-03",
+      "modulos": [
+        {
+          "tipo": "Interruptor doble",
+          "ambiente": "Comedor",
+          "price": 2000,
+          "slots": 2
+        },
+        {
+          "tipo": "Toma corriente doble",
+          "ambiente": "Cocina",
+          "price": 3000,
+          "slots": 2
+        },
+        {
+          "tipo": "USB",
+          "ambiente": "Cocina",
+          "price": 5000,
+          "slots": 1
+        },
+        {
+          "tipo": "Interruptor simple",
+          "ambiente": "Dormitorio",
+          "price": 1000,
+          "slots": 1
+        },
+        {
+          "tipo": "Toma corriente triple",
+          "ambiente": "Dormitorio",
+          "price": 1700,
+          "slots": 3
+        }
+      ]
+    },
+    {
+      "id": "km3hff7j5",
+      "client": "asda",
+      "date": "2023-09-03",
+      "modulos": [
+        {
+          "tipo": "Interruptor doble",
+          "zona": "Comedor",
+          "price": 2000,
+          "slots": 2
+        }
+      ]
+    },
+    {
+      "id": "8m3hfrxm7",
+      "client": "sadasd",
+      "date": "2023-10-12",
+      "modulos": [
+        {
+          "tipo": "Interruptor doble",
+          "zona": "Comedor",
+          "price": 2000,
+          "slots": 2
+        }
+      ]
+    }
+  ],
   "module-types": [
     {
       "id": "1",
